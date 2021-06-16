@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>JPTravel</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-slides autoplay = "4000" loop = "true" speed = "3000" style="max-height:200px">
+    <ion-slide *ngFor="let slide of slides">
+        <img [src]="slide">
+    </ion-slide>
+  </ion-slides>
+
+  <ion-list>
+
+    <ion-item (click)="goto1()">
+      <ion-thumbnail item-start>
+        <img src="assets/img/meet.png">
+      </ion-thumbnail>
+      <h2>บทสนทนาพิ้นฐาน</h2>
+
+
+    </ion-item>
+
+    <ion-item (click)= "goto2()">
+      <ion-thumbnail item-start>
+          <img src="assets/img/airport.png">
+      </ion-thumbnail>
+      <h2>สนามบิน</h2>
+
+
+    </ion-item>
+
+    <ion-item (click)= "goto3()">
+      <ion-thumbnail item-start>
+        <img src="assets/img/hotel.png">
+      </ion-thumbnail>
+      <h2>ที่พัก</h2>
+
+
+    </ion-item>
+
+    <ion-item (click)= "goto4()">
+      <ion-thumbnail item-start>
+        <img src="assets/img/vacation.png">
+      </ion-thumbnail>
+      <h2>แหล่งท่องเที่ยว</h2>
+
+
+    </ion-item>
+
+    <ion-item (click)= "goto5()">
+      <ion-thumbnail item-start>
+          <img src="assets/img/food.png">
+      </ion-thumbnail>
+      <h2>อาหารญี่ปุ่น</h2>
+
+
+    </ion-item>
+
+    <ion-item (click)= "goto6()">
+      <ion-thumbnail item-start>
+          <img src="assets/img/shop.png">
+      </ion-thumbnail>
+      <h2>ชอปปิ้ง</h2>
+
+
+    </ion-item>
+
+    <ion-item (click)= "goto7()">
+      <ion-thumbnail item-start>
+        <img src="assets/img/tourist.png">
+      </ion-thumbnail>
+      <h2>การเดินทางในญี่ปุ่น</h2>
+
+
+    </ion-item>
+
+
+
+
+
+
+
+  </ion-list>
+</ion-content>

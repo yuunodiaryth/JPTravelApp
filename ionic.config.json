@@ -1,0 +1,8 @@
+{
+  "name": "jptravel",
+  "app_id": "fa6e11aa",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

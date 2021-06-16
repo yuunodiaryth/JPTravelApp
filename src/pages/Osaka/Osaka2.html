@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>
+        หอคอยซึเทนคาคุ
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+  <img src="assets/img/w202.jpg"/>
+  <ion-card-content>
+    <ion-card-title>
+      <h1>หอคอยซึเทนคาค</h1>
+      </ion-card-title>
+      <br>
+
+      <h1>รายละเอียด</h1>
+      <br>
+      ค่าเข้าชม: ผู้ใหญ่ 600 เยน เด็ก 300 เยน
+      <p></p>
+      เวลาเปิด-ปิด: 9:00-20:30
+      <p></p>
+      <br>
+      
+      <h1>วิธีเดินทาง</h1>
+      <br>
+      นั่งรถไฟแล้วเดินแค่ 5 นาทีจากสถานีต่อไปนี้สถานี Shin-Imamiya
+      <p></p>
+       [JR Loop Line],สถานี Dobutsuen-mae
+       <p></p>
+        [Midosuji and Tanimachi Subway Lines]
+        <p></p>
+        และ Ebisucho Station [Tanimachi Subway Line]
+    <button ion-button color="primary" block (click)="MapOsaka2()">แสดงแผนที่</button>
+
+    <ion-card>
+    <ion-card-content>
+      Latitude : {{ L1 }}
+    </ion-card-content>
+    <ion-card-content>
+      Longitude : {{ L2 }}
+    </ion-card-content>
+  </ion-card>
+  </ion-card-content>
+  </ion-card>
+
+
+</ion-content>
